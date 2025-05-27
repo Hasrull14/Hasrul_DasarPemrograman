@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="kerucut"/>
+        <attribute name="authors" value="ACER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-12 08:09:46 PM"/>
+        <attribute name="created" value="QUNFUjtIQVNSVUw7MjAyNS0wMy0xMjswNzo1NTo1MSBQTTsyMDI4"/>
+        <attribute name="edited" value="QUNFUjtIQVNSVUw7MjAyNS0wMy0xMjswODowOTo0NiBQTTsyOzIxNDE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="r" type="Integer" array="False" size=""/>
+            <declare name="s" type="Integer" array="False" size=""/>
+            <declare name="t" type="Integer" array="False" size=""/>
+            <declare name="phi" type="Real" array="False" size=""/>
+            <assign variable="phi" expression="3.14"/>
+            <declare name="luas" type="Real" array="False" size=""/>
+            <declare name="volume" type="Real" array="False" size=""/>
+            <output expression="&quot;jari - jari = &quot;" newline="False"/>
+            <input variable="r"/>
+            <output expression="&quot;garis pelukis = &quot;" newline="False"/>
+            <input variable="s"/>
+            <output expression="&quot;tinggi = &quot;" newline="False"/>
+            <input variable="t"/>
+            <assign variable="luas" expression="phi*r*(r+s)"/>
+            <assign variable="volume" expression="1/3*phi*r*r*t"/>
+            <output expression="&quot;luas kerucut =&quot;&amp;luas" newline="True"/>
+            <output expression="&quot;volume kerucut =&quot;&amp;volume" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
