@@ -32,10 +32,10 @@ int main() {
 
 
     //membuka file dalam mode membaca
-    ifstream bacafile;
+    ifstream bacafile("data_penjualan.txt");;
 
     //menunjuk ke sebuah file
-    bacafile.open("data_penjualan.txt");
+    // bacafile.open("data_penjualan.txt");
 
     cout<<"\n>= Membuka dan membaca file, data_penjualan.txt "<<endl;
     //jika file ada maka
